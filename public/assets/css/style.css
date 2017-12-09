@@ -1,0 +1,47 @@
+body{
+
+}
+h1{
+	text-align: center;
+}
+h4{
+	color: white;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px; 
+/*	background: #00d2ff;
+  background: -webkit-linear-gradient(left, #3a7bd5, #00d2ff);
+  background: -o-linear-gradient(left, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);*/
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedce7+0,596a72+100;Grey+3D+%231 */
+	background: #cedce7;
+	background: -moz-linear-gradient(top, #cedce7 0%, #596a72 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #cedce7 0%,#596a72 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+
+}
+.headcard{
+	background-color: white;
+	border-radius: 8px;
+	margin: 15px 30px;
+	border: 1px solid #cedce7;
+}
+p{
+	margin-left: 15px;
+}
+button{
+	background-color: #30E856;
+	float: right;
+	margin-right: 30px;
+	font-size: 20px;
+	border-radius: 2px;
+	color: white;
+	box-shadow: 10px;
+	border-style: none;
+}
+
+
