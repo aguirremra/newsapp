@@ -24,8 +24,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static("public"));
 
 // Connect to the Mongo DB
+
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/newsapp";
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://localhost/newsapp", {
+mongoose.connect(MONGODB_URI, {
   useMongoClient: true
 });
 
@@ -110,6 +112,7 @@ app.post('/articles/:id', function(req, res){
 	});
 });
 
+//MONGODB_URI: mongodb://heroku_1p9s78l9:cjduh8r5i5dq7nrv4kv7ckvd15@ds135876.mlab.com:35876/heroku_1p9s78l9
 //start mongodb server manually
 //"C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe"
 // Start the server
